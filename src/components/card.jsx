@@ -1,7 +1,7 @@
 
 
 
-function Card({image,title, text}) {
+function Card({image, title, text}) {
 
     return (
         <>
