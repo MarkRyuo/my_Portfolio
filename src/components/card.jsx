@@ -1,7 +1,7 @@
 
 
 
-function card({image,title, text}) {
+function Card({image,title, text}) {
 
     return (
         <>
@@ -14,4 +14,4 @@ function card({image,title, text}) {
     )
 }
 
-export default card
+export default Card
