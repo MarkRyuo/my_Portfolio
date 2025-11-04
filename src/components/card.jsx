@@ -1,6 +1,5 @@
 
 
-
 function Card({image, title, text}) {
 
     return (
