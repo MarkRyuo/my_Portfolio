@@ -4,8 +4,16 @@ function App() {
 
   return (
     <>
-    
+      <main>
+        <div className=''> 
+          <section>
 
+          </section>
+          <section>
+
+          </section>
+        </div>
+      </main>
     </>
   )
 }
