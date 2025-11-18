@@ -1,4 +1,5 @@
 import './App.css'
+import NavCompts from './components/navCompts'
 
 function App() {
 
@@ -6,8 +7,9 @@ function App() {
     <>
       <main>
         <div className='main-container'> 
+          <NavCompts largeText="Always Building" smallText="Always Learning"/>
           <section>
-
+            
           </section>
           <section>
 

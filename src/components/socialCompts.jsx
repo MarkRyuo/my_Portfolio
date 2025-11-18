@@ -1,6 +1,6 @@
-import NavCompts from "./navCompts";
+import React, { Component } from "react";
 
-class SocialCompts extends NavCompts {
+class SocialCompts extends Component {
 
     constructor(){
         super()
@@ -10,17 +10,19 @@ class SocialCompts extends NavCompts {
     render() {
 
         const social = {
-            gmail: "",
-            linkedIn: "",
-            gitHub: ""
+            gmail: "../assets/gmail.png",
+            linkedIn: "../assets/linkedin.png",
+            gitHub: "../assets/github-sign.png"
         }
 
         return(
             <div>
-                <img src={social.gmail} alt="" />
-                <img src={social.linkedIn} alt="" />
-                <img src={social.gitHub} alt="" />
+                <button type="button">
+                    <img src={social.gmail} alt="" srcset="" />
+                </button>
             </div>
         )
     }
 }
+
+export default SocialCompts

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import SocialCompts from "./socialCompts";
 
 class NavCompts extends Component {
 
@@ -19,7 +19,7 @@ class NavCompts extends Component {
                 </div>
 
                 <div>
-
+                    <SocialCompts />
                 </div>
             </div>
         )
