@@ -19,9 +19,12 @@ class NavCompts extends Component {
                 </div>
 
                 <div>
-                    
+
                 </div>
             </div>
         )
     }
 }
+
+
+export default NavCompts
