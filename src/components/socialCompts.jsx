@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import gmailIcon from "../assets/gmail.png";
+import linkedInIcon from "../assets/linkedin.png"
+import gitHubIcon from "../assets/github-sign.png"
 
 class SocialCompts extends Component {
 
@@ -10,15 +13,23 @@ class SocialCompts extends Component {
     render() {
 
         const social = {
-            gmail: "../assets/gmail.png",
-            linkedIn: "../assets/linkedin.png",
-            gitHub: "../assets/github-sign.png"
+            gmail: gmailIcon,
+            linkedIn: linkedInIcon,
+            gitHub: gitHubIcon
         }
 
         return(
             <div>
                 <button type="button">
                     <img src={social.gmail} alt="" srcset="" />
+                </button>
+
+                <button type="button">
+                    <img src={social.linkedIn} alt="" srcset="" />
+                </button>
+
+                <button type="button">
+                    <img src={social.gitHub} alt="" srcset="" />
                 </button>
             </div>
         )
