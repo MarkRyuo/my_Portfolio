@@ -12,7 +12,7 @@ class NavCompts extends Component {
         const {largeText, smallText} = this.props 
 
         return(
-            <div>
+            <div className="flex justify-between">
                 <div>
                     <h1>{largeText}</h1>
                     <h2>{smallText}</h2>
