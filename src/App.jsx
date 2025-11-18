@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <main>
-        <div className=''> 
+        <div className='main-container'> 
           <section>
 
           </section>
