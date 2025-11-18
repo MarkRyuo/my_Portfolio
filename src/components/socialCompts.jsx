@@ -19,16 +19,16 @@ class SocialCompts extends Component {
         }
 
         return(
-            <div className="flex justify-between">
-                <button type="button" className="max-w-[35px]">
+            <div className="flex justify-between w-60">
+                <button type="button" className="max-w-7">
                     <img src={social.gmail} alt="" srcset="" className="w-full"/>
                 </button>
 
-                <button type="button" className="max-w-[35px]">
+                <button type="button" className="max-w-7">
                     <img src={social.linkedIn} alt="" srcset="" className="w-full"/>
                 </button>
 
-                <button type="button" className="max-w-[35px]">
+                <button type="button" className="max-w-7">
                     <img src={social.gitHub} alt="" srcset="" className="w-full"/>
                 </button>
             </div>

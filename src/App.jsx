@@ -5,9 +5,11 @@ function App() {
 
   return (
     <>
-      <main>
+      <main className='bg-[#FFFFFC]'>
         <div className='main-container'> 
-          <NavCompts largeText="Always Building" smallText="Always Learning"/>
+          <div className='mx-auto w-auto max-w-7xl'>
+            <NavCompts largeText="Always Building," smallText="Always Learning"/>
+          </div>
           <section>
             
           </section>
