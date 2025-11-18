@@ -20,15 +20,15 @@ class SocialCompts extends Component {
 
         return(
             <div className="flex justify-between w-60">
-                <button type="button" className="max-w-7">
+                <button type="button" className="max-w-7 cursor-pointer">
                     <img src={social.gmail} alt="" srcset="" className="w-full"/>
                 </button>
 
-                <button type="button" className="max-w-7">
+                <button type="button" className="max-w-7 cursor-pointer">
                     <img src={social.linkedIn} alt="" srcset="" className="w-full"/>
                 </button>
 
-                <button type="button" className="max-w-7">
+                <button type="button" className="max-w-7 cursor-pointer">
                     <img src={social.gitHub} alt="" srcset="" className="w-full"/>
                 </button>
             </div>
