@@ -20,17 +20,17 @@ class SocialCompts extends Component {
 
         return(
             <div className="flex justify-between w-60 px-3">
-                <button type="button" className="max-w-7 cursor-pointer">
+                <a href="mailto:jhonmarkmalupa3035m@gmail.com" target="_black" className="max-w-7 cursor-pointer">
                     <img src={social.gmail} alt="" srcset="" className="w-full"/>
-                </button>
+                </a>
 
-                <button type="button" className="max-w-7 cursor-pointer">
+                <a href="https://www.linkedin.com/in/jhon-mark-malupa-a34a46284/" target="_blank" type="button" className="max-w-7 cursor-pointer">
                     <img src={social.linkedIn} alt="" srcset="" className="w-full"/>
-                </button>
+                </a>
 
-                <button type="button" className="max-w-7 cursor-pointer">
+                <a href="https://github.com/MarkRyuo" target="_blank" type="button" className="max-w-7 cursor-pointer">
                     <img src={social.gitHub} alt="" srcset="" className="w-full"/>
-                </button>
+                </a>
             </div>
         )
     }
