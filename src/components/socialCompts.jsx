@@ -27,11 +27,11 @@ class SocialCompts extends Component {
                     <img src={social.gmail} alt="" srcset="" className="w-full"/>
                 </a>
 
-                <a href={data.social.linkedIn.url} target="_blank" type="button" className="max-w-7 cursor-pointer">
+                <a href={data.social.linkedIn.url} target="_blank" className="max-w-7 cursor-pointer">
                     <img src={social.linkedIn} alt="" srcset="" className="w-full"/>
                 </a>
 
-                <a href={data.social.gitHub.url} target="_blank" type="button" className="max-w-7 cursor-pointer">
+                <a href={data.social.gitHub.url} target="_blank" className="max-w-7 cursor-pointer">
                     <img src={social.gitHub} alt="" srcset="" className="w-full"/>
                 </a>
             </div>
