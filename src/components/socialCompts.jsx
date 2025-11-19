@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import gmailIcon from "../assets/gmail.png";
 import linkedInIcon from "../assets/linkedin.png"
 import gitHubIcon from "../assets/github-sign.png"
+import data from "../data.json";
 
 class SocialCompts extends Component {
 
@@ -18,17 +19,19 @@ class SocialCompts extends Component {
             gitHub: gitHubIcon
         }
 
+
+
         return(
             <div className="flex justify-between w-60 px-3">
-                <a href="mailto:jhonmarkmalupa3035m@gmail.com" target="_black" className="max-w-7 cursor-pointer">
+                <a href={`mailto: ${data.social.email.gmail}`} target="_black" className="max-w-7 cursor-pointer">
                     <img src={social.gmail} alt="" srcset="" className="w-full"/>
                 </a>
 
-                <a href="https://www.linkedin.com/in/jhon-mark-malupa-a34a46284/" target="_blank" type="button" className="max-w-7 cursor-pointer">
+                <a href={data.social.linkedIn.url} target="_blank" type="button" className="max-w-7 cursor-pointer">
                     <img src={social.linkedIn} alt="" srcset="" className="w-full"/>
                 </a>
 
-                <a href="https://github.com/MarkRyuo" target="_blank" type="button" className="max-w-7 cursor-pointer">
+                <a href={data.social.gitHub.url} target="_blank" type="button" className="max-w-7 cursor-pointer">
                     <img src={social.gitHub} alt="" srcset="" className="w-full"/>
                 </a>
             </div>

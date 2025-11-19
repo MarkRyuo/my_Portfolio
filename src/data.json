@@ -1,5 +1,5 @@
 {
-    "social": [{
+    "social": {
         "email":{
             "gmail": "jhonmarkmalupa3035m@gmail.com"
         },
@@ -12,5 +12,5 @@
             "url": "https://github.com/MarkRyuo"
         }
 
-    }]
+    }
 }
