@@ -13,7 +13,7 @@ class NavCompts extends Component {
 
         return(
             <div className="flex justify-between items-center">
-                <div>
+                <div className="px-3">
                     <h1 className="text-2xl">{largeText}</h1>
                     <h2 className="text-base">{smallText}</h2>
                 </div>
