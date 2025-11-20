@@ -1,4 +1,5 @@
 import "./App.css";
+import LeftHero from "./components/leftHeroCompts";
 import NavCompts from "./components/navCompts";
 import SocialCompts from "./components/socialCompts";
 
@@ -11,9 +12,7 @@ function App() {
         </nav>
         <div className="hero-container">
           <section>
-            <div>
-
-            </div>
+            <LeftHero />
           </section>
           <section>
 
