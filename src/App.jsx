@@ -11,7 +11,7 @@ function App() {
         <nav className="mx-auto w-auto max-w-7xl">
           <NavCompts largeText="Always Building," smallText="Always Learning" />
         </nav>
-        <div className="mx-auto w-auto max-w-7xl grid grid-row-2 lg:grid-cols-2 py-2.5 justify-items-center">
+        <div className="mx-auto w-auto max-w-7xl grid grid-row-2 lg:grid-cols-2 py-2.5">
           <section className="">
             <LeftHero />
           </section>
@@ -19,7 +19,7 @@ function App() {
             <RightHero />
           </section>
         </div>
-        <footer className="md:hidden">
+        <footer className="md:hidden ">
           <SocialCompts />
         </footer>
       </main>
