@@ -11,7 +11,7 @@ function App() {
         <nav className="mx-auto w-auto max-w-7xl">
           <NavCompts largeText="Always Building," smallText="Always Learning" />
         </nav>
-        <div className="hero-container grid grid-row-2">
+        <div className="hero-container grid grid-row-2 lg:grid-cols-2">
           <section className="">
             <LeftHero />
           </section>

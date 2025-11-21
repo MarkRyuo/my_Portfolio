@@ -7,7 +7,7 @@ function LeftHero() {
       </div>
 
       <div>
-        <p className="text-base">
+        <p className="text-base border-l-2 px-1">
           I’m a builder of end-to-end web experiences. I started with front-end
           design, but my curiosity led me deeper into servers, databases, and
           APIs. Now, I bring ideas to life from the first pixel on screen to the
