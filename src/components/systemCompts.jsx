@@ -1,19 +1,16 @@
-import { useState } from "react"
 
 
 
 function SystemCompts({sysName, url}) {
 
-    const {hasUrl, setUrl} = useState()
-    const {hasSysName, setSysName} = useState()
 
-    const showSystem = () => {
-        return setUrl(url)
+    const showSystem = (link) => {
+        window.open(link, "_blank")
     }
 
     return(
         <div>
-            <button type="button" onClick={showSystem}>
+            <button type="button" onClick={() => showSystem(url)} className="cursor-pointer">
                 {sysName}
             </button>
         </div>

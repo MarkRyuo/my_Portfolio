@@ -1,6 +1,7 @@
 import "./App.css";
 import LeftHero from "./components/leftHeroCompts";
 import NavCompts from "./components/navCompts";
+import RightHero from "./components/rightHeroCompts";
 import SocialCompts from "./components/socialCompts";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
             <LeftHero />
           </section>
           <section>
-
+            <RightHero />
           </section>
         </div>
         <footer className="md:hidden">
