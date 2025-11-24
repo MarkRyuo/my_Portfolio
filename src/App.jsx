@@ -7,7 +7,7 @@ import SocialCompts from "./components/socialCompts";
 function App() {
   return (
     <>
-      <main className="bg-[#FFFFFC] h-screen grid grid-rows-[100px, 1fr, 100px] md:grid-rows[1fr, 2fr]">
+      <main className="bg-[#FFFFFC] relative h-screen grid grid-rows-[100px, 1fr, 100px] md:grid-rows[1fr, 2fr] ">
         <nav className="">
           <NavCompts largeText="Always Building," smallText="Always Learning" />
         </nav>
