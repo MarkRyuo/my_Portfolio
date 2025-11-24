@@ -7,8 +7,8 @@ import SocialCompts from "./components/socialCompts";
 function App() {
   return (
     <>
-      <main className="bg-[#FFFFFC] h-screen">
-        <nav className="mx-auto w-auto max-w-7xl">
+      <main className="bg-[#FFFFFC] h-screen grid grid-rows-[100px, 1fr, 100px] md:grid-rows[1fr, 2fr]">
+        <nav className="">
           <NavCompts largeText="Always Building," smallText="Always Learning" />
         </nav>
         <div className="mx-auto w-auto max-w-7xl grid grid-row-2 lg:grid-cols-2 py-2.5">
@@ -19,7 +19,7 @@ function App() {
             <RightHero />
           </section>
         </div>
-        <footer className="md:hidden ">
+        <footer className="md:hidden flex items-center">
           <SocialCompts />
         </footer>
       </main>
