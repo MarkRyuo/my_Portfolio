@@ -15,7 +15,7 @@ function App() {
           <section className="">
             <LeftHero />
           </section>
-          <section className="">
+          <section className="flex items-center justify-end px-2.5 lg:justify-start">
             <RightHero />
           </section>
         </div>

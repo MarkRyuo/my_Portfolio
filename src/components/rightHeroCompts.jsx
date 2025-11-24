@@ -5,7 +5,7 @@ import SystemCompts from "./systemCompts"
 function RightHero(){
 
     return(
-        <div className="flex flex-col items-end">
+        <div className="flex flex-col items-end w-full lg:items-start">
             <div>
                 <h1 className="text-2xl">Project</h1>   
                 <SystemCompts sysName="Sales Inventory Management System" url="https://www.facebook.com/"/>
