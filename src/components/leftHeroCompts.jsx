@@ -2,8 +2,8 @@ function LeftHero() {
   return (
     <div className="grid grid-rows-3">
       <div className="w-full h-full pl-2.5 flex flex-col justify-center">
-        <p className="text-2xl lg:text-5xl">Hello, I'm</p>
-        <p className="text-5xl lg:text-8xl">Jhon Mark</p>
+         <p className="text-2xl lg:text-5xl">Hello, I'm</p>
+          <p className="text-5xl lg:text-8xl">Jhon Mark</p>
       </div>
 
       <div className="w-full h-full pl-2.5 flex items-center">
