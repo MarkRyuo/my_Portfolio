@@ -11,11 +11,11 @@ function App() {
         <nav className="">
           <NavCompts largeText="Always Building," smallText="Always Learning" />
         </nav>
-        <div className="mx-auto w-auto max-w-7xl grid grid-row-2 lg:grid-cols-2 py-2.5">
+        <div className="mx-auto w-auto max-w-7xl grid grid-row-2 lg:grid-cols-2 lg:gap-4">
           <section className="">
             <LeftHero />
           </section>
-          <section className="flex items-center justify-end px-2.5 lg:justify-start">
+          <section className="flex items-center">
             <RightHero />
           </section>
         </div>
